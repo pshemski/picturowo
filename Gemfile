@@ -11,6 +11,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'devise', '~> 4.2'
 gem 'paperclip', '~> 4.3.0'
+gem 'aws-sdk', '~> 2.1.16'
 
 group :development, :test do
   gem 'byebug', platform: :mri
