@@ -12,12 +12,12 @@
 
   <div class="form-group">
     <%= f.label :description %><br />
-    <%= f.text_field :description, class: 'form-control' %>
+    <%= f.text_area :description, class: 'form-control' %>
   </div>
 
   <div class="form-group">
-    <%= f.label :image, "Obraz" %>
-    <%= f.file_field :image, class: "form-control" %>
+    <%= f.label :image, "Add Picture" %>
+    <%= f.file_field :image %>
   </div>
 
   <div class="actions">
